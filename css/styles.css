@@ -1,0 +1,77 @@
+/* Generales */
+
+body{
+  background: linear-gradient(to bottom, #a5a4ac, #313036);
+  
+  /* en duda */
+  font-family: Agency FB;
+  font-size: 20px;
+  color: white;
+}
+
+/* Header y nav */
+
+.Logo{
+  max-height: 65px;
+  width: auto;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 1px 0px rgb(235, 230, 70);
+}
+
+/* footer */
+
+footer{
+  background: #333;
+  color: rgb(235, 232, 70);
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+  border-top: rgb(235, 230, 70) solid 1.5px;
+}
+
+footer a {
+  color: rgb(235, 232, 70);
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  padding: 0 10px;
+  background: #333;
+  line-height: 50px;
+  font-size: 18px;
+  transition: 0.1s;
+}
+
+footer a:hover {
+  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+footer .facebook:hover {
+  background: #3b5999;
+  filter: none;
+}
+
+footer .instagram:hover {
+  background: #c13584;
+}
+footer .whatsapp:hover {
+  background: #25d366;
+}
+
+#copy {
+  font-family: Agency FB !important;
+  background: #333;
+  width: auto;
+  margin-bottom: auto;
+  color: rgb(235, 232, 70);
+  text-align: center;
+  justify-content: center;
+}

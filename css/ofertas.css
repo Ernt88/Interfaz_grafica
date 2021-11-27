@@ -1,0 +1,160 @@
+/* *{
+  padding: 0;
+  margin: 0;
+} */
+
+/* body{
+  background: #1F1C2C;   fallback for old browsers 
+  background: -webkit-linear-gradient(to bottom, #a3a1ad, #232229);  Chrome 10-25, Safari 5.1-6  
+  background: linear-gradient(to bottom, #a3a1ad, #232229);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+} */
+
+body{
+  background: linear-gradient(to bottom, #a5a4ac, #313036);
+  
+  /* en duda */
+  font-family: Agency FB;
+  font-size: 20px;
+  color: white;
+}
+
+.Logo{
+  max-height: 65px;
+  width: auto;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 1px 0px rgb(235, 230, 70);
+}
+
+.row{
+  justify-content: center !important;
+}
+
+.card{
+  /* en duda */
+  background: #252527;
+  color: whitesmoke;
+
+  max-height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #000;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
+  border-bottom: rgb(235, 230, 70) solid 5px !important;
+/* display: inline-block; */
+  /* max-width: auto !important; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+}
+
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 10px #000;
+  transition:all .5s ease-in-out;
+}
+
+.card h4{
+  font-weight: 600;
+}
+
+.comprar{
+  margin-bottom: 15px;
+}
+
+.card a{
+  width: auto;
+  padding: 7px;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  /* en duda */
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* en duda */
+.card a:hover{
+  box-shadow: 5px 5px 3px 0px rgb(235, 230, 70);
+}
+
+/* .card img{
+  max-height: 250px;
+  max-width: 80%;
+} */
+
+
+/* footer */
+
+footer{
+  background: #333;
+  color: rgb(235, 232, 70);
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+  border-top: rgb(235, 230, 70) solid 1.5px;
+}
+
+footer a {
+  color: rgb(235, 232, 70);
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  padding: 0 10px;
+  background: #333;
+  line-height: 50px;
+  font-size: 18px;
+  transition: 0.1s;
+}
+
+footer a:hover {
+  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+footer .facebook:hover {
+  background: #3b5999;
+  filter: none;
+}
+
+footer .instagram:hover {
+  background: #c13584;
+}
+footer .whatsapp:hover {
+  background: #25d366;
+}
+
+#copy {
+  font-family: Agency FB !important;
+  background: #333;
+  width: auto;
+  margin-bottom: auto;
+  color: rgb(235, 232, 70);
+  text-align: center;
+  justify-content: center;
+}
+
+/* #copy p {
+  padding: 10px;
+} */
+
+/* @media(max-width:767px){
+  .Inicio-cel{
+      display: block;
+  }
+  #logo{
+    height: 60px;
+    width: 60px;
+    margin: -20px 0 0 0;
+  }
+  #header{
+    height: 80px;
+  }
+} */

@@ -1,0 +1,13 @@
+form{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn{
+  background-color: rgb(235, 232, 70);
+  color: black;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 4px 0px white;
+}

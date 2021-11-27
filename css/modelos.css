@@ -1,0 +1,157 @@
+.row{
+  justify-content: center !important;
+}
+
+.card{
+  /* en duda */
+  border-radius: 0px;
+  /* border: 1px solid rgb(14, 13, 13); */
+  /* background-color: #252527; */
+  background-color: transparent;
+  color: whitesmoke;
+
+  max-height: auto;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
+  border-bottom: rgb(235, 230, 70) solid 5px !important;
+
+  box-shadow: 0px 0px 0px 0px black;
+  /* display: inline-block; */
+  /* max-width: auto !important; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+}
+
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 10px #000;
+  transition:all .5s ease-in-out;
+}
+
+.comprar{
+  margin-bottom: 15px;
+}
+
+.card h4{
+  font-weight: 600;
+  padding: 7px;
+}
+
+.card a{
+  width: auto;
+  padding: 7px;
+  font-size: 25px;
+  text-decoration: none;
+
+  
+  /* en duda */
+  /* border-radius: 5px; */
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* en duda */
+.card a:hover{
+  box-shadow: 5px 5px 3px 0px rgb(235, 230, 70);
+}
+
+
+
+
+
+
+/* .card img{
+  overflow: hidden;
+} */
+
+
+/* * {
+  font-family: "Agency FB", arial;
+}
+
+@media (min-width: 768px) {
+  .Inicio-pc {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .Inicio-cel {
+    display: block;
+  }
+  #logo {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+section article div img {
+  max-height: 25rem;
+  max-width: 25rem;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+section article div {
+  text-align: center;
+  cursor: pointer;
+  background: #333;
+}
+
+section article div img {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 5px rgb(39, 39, 39), 0 0 10px rgb(49, 49, 49),
+    0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41), 0 0 80px rgb(32, 32, 32),
+    0 0 90px rgb(24, 24, 24);
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+section article div div:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 5px rgb(39, 39, 39), 0 0 10px rgb(49, 49, 49),
+    0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41), 0 0 80px rgb(32, 32, 32),
+    0 0 90px rgb(24, 24, 24);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  transition: 200ms ease;
+}
+
+section article {
+  margin-top: 2.5rem;
+} */
+
+
+
+
+
+
+
+
+/* .titulo {
+  background-color: #333;
+  cursor: pointer;
+}
+
+section h2 {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 2rem;
+}
+
+section article div {
+  display: inline-block;
+  color: white;
+  align-content: space-around;
+  text-align: center;
+  padding: 2rem;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+} */
