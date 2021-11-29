@@ -2,12 +2,21 @@
   justify-content: center !important;
 }
 
+.modelo-tipo{
+  font-size: 33px;
+  text-align: center;
+  background-color: black;
+}
+
 .card{
   /* en duda */
+  /* min-height: 600px;
+  align-items: center; */
+  display: flex;
   border-radius: 0px;
   /* border: 1px solid rgb(14, 13, 13); */
   /* background-color: #252527; */
-  background-color: transparent;
+  background-color: rgb(31, 30, 30);
   color: whitesmoke;
 
   max-height: auto;
@@ -15,8 +24,10 @@
   text-align: center;
   transition: all 0.25s;
   border-bottom: rgb(235, 230, 70) solid 5px !important;
+  
 
-  box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0px 0px 2px 0px black;
+  text-shadow: 0px 0px 10px 0px black;
   /* display: inline-block; */
   /* max-width: auto !important; */
   /* margin: 20px; */
@@ -27,6 +38,12 @@
   transform: translateY(-15px);
   box-shadow: 0px 0px 10px #000;
   transition:all .5s ease-in-out;
+}
+
+.card p{
+  display: flex;
+  align-items: center;
+  min-height: 150px;
 }
 
 .comprar{
